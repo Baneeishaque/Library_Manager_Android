@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/bookid"
+        android:textColor="#303030"
+        android:scrollbarSize="15sp"
+        android:text="Book ID"
+        android:paddingLeft="12dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/isdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#303040"
+        android:textSize="15sp"
+        android:gravity="right"
+        android:text="Title"
+        android:paddingRight="20dp"
+        android:paddingLeft="10dp" />
+    <TextView
+        android:id="@+id/retdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#303040"
+        android:textSize="15sp"
+        android:gravity="right"
+        android:text="Title"
+        android:paddingRight="20dp"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/process"
+        android:textColor="#aa2220"
+        android:textSize="18sp"
+        android:text="Author"
+        android:paddingLeft="10dp" />
+
+
+</LinearLayout>
